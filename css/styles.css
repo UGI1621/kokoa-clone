@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "variable.css";
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 450px;
+}
+
+.welcome-header{
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.welcome-header__text{
+    opacity: 0.5;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#login-form input:not([type="submit"]){
+    border: none;
+    padding:15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    ;
+}
+
+#login-form input:not([type="submit"]){
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    transition: border-color 0.3s ease-in-out
+}
+
+#login-form input::placeholder{
+    color: rgba(0,0,0,0.3);
+}
+
+#login-form input:focus{
+    border-color: var(--yellow);
+}
+
+#login-form input[type="submit"]{
+    cursor: pointer;
+    font-size: 17px;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px 0px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+#login-form input:hover{
+    background-color: var(--yellow);
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-top: 20px;
+}
