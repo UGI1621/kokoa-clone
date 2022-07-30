@@ -5,11 +5,15 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screen */
 @import "screen/login.css";
+@import "screen/friedns.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
-    width: 450px;
+    color: #2e363e;
 }

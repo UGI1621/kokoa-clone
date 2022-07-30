@@ -1,6 +1,7 @@
 
 .welcome-header{
-    margin: 90px 0px;
+    padding-top:30%;
+    padding-bottom: 15%;
     text-align: center;
     display: flex;
     flex-direction: column;
