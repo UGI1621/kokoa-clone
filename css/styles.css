@@ -63,7 +63,7 @@ body{
     transition: background-color 0.1s ease-in-out;
 }
 
-#login-form input:hover{
+#login-form input[type="submit"]:hover{
     background-color: var(--yellow);
 }
 
