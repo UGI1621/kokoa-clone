@@ -13,6 +13,7 @@
 /* Screen */
 @import "screen/login.css";
 @import "screen/friedns.css";
+@import "screen/find.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
