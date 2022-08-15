@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 /* Screen */
 @import "screen/login.css";
@@ -28,3 +29,4 @@ body{
 .main-screen{
     padding: 0px var(--horizontal-space);
 }
+
